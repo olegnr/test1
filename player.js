@@ -31,7 +31,7 @@ function Racket(name, x, y, width, height, color) {
 $(document).ready(function() 
 {   
 	var racket1 = new Racket('Left', 0, 10, 10, 60, 'green');
-	var racket2 = new Racket('Right', 1014, 10, 10, 60, 'red');
+	var racket2 = new Racket('Right', 1014, 10, 10, 60, 'blue');
 	
 	var pong = document.getElementById("pingpong");
 	pong.width  = 1024;

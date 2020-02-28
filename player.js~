@@ -84,10 +84,6 @@ $(document).ready(function()
 			flagUp = 1;
 		}
 		
-		console.log(flagKeyS);
-		console.log(flagDown);
-		
-		
 		//Игрок 1
 		if (flagKeyS == 1) {
 			if(racket1.y != 424 )  //Проверка на границу игрового поля
